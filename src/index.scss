@@ -113,3 +113,31 @@ button, input, optgroup, select, textarea {
   font: inherit;
   margin: 0;
 }
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}

@@ -1,7 +1,38 @@
 .lol {
     background-color: teal;
+    padding-top: 200px;
 }
 
 .pageFiller {
     height: 1600px;
+}
+
+.sectionBox {
+    max-width: 800px;
+    margin: auto;
+}
+
+.smoothBoxesContainer {
+    margin: 0 -15px;
+}
+
+.widthDefault {
+    padding: 0 4.1666667%;
+}
+
+.boxie {
+ flex-basis: 33.33333333%;
+ padding: 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxie {
+        flex-basis: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .boxie {
+        flex-basis: 100%;
+    }
 }

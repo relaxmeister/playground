@@ -10,11 +10,9 @@ import "./style.scss";
 
 // AFTONBLADET / ARla
 
-type Props = {
-  hideHeader: boolean;
-};
+type Props = {};
 
-const FloatingHeader: React.FC<Props> = ({ hideHeader }) => {
+const FloatingHeader: React.FC<Props> = () => {
   const [scrollDir, setScrollDir] = useState("scrolling down");
 
   const [hide, setHide] = useState<boolean>();
